@@ -1,0 +1,58 @@
+a.
+i) Problem definition:
+  write a program in which several concurrent threads are competing for resources, you
+must take precautions to avoid starvation and deadlock Starvation occurs when one or more
+threads in your program are blocked indefinitely from gaining access to a resource and, as a
+result, cannot make progress. Deadlock occurs when two or more threads are waiting on a
+condition that cannot be satisfied. Deadlock most often occurs when two (or more) threads are
+waiting for the other(s) resulting in a cyclic waiting that no process can continue. 
+
+Must take 'number of threads' as command line parameter to the program. (We
+assume that number of threads can be only power of 2 numbers: 2, 4, 8, …) We will assume that
+there is a top level shared resource which all threads will be competing to access. The mutual
+exclusion will be achieved using a number of semaphores which will be assumed to be logically
+arranged in a full binary tree hierarchy. These semaphores will be logically treated as internal
+nodes of the binary tree and the threads will be treated as leaf nodes of this logical binary tree.
+For example suppose your application is to start 8 threads, then your program must calculate that
+it would need 7 semaphores to construct the logical semaphore binary tree After 15 seconds of running, the program (both producer and consumer
+threads) should be terminated gracefully without any error.
+
+ii)Proposed solution:
+
+ 1.Create Multiple threads and start
+ 2.Create SemaphoreBTree and pass the thread 
+ 3.Lock the semaphore tree leave
+ 4.Release lock after some time
+ 5.Repeat step 3-4 till 15 sec reach
+ 
+
+ 
+
+
+b) Results :
+
+Sample Partial Output:
+Starting thread id: p0
+Starting thread id: p1
+Starting thread id: p2
+Starting thread id: p3
+Starting thread id: p4
+Starting thread id: p5
+Starting thread id: p6
+Starting thread id: p7
+Thread p7 trying to lock semaphore s6 : success
+Thread p0 trying to lock semaphore s3 : success
+Thread p6 trying to lock semaphore s6 : failure [waiting]
+Thread p7 trying to lock semaphore s2 : success
+Thread p2 trying to lock semaphore s4 : success
+Thread p7 trying to lock semaphore s0 : success
+Thread p7 in critical section now. Will be in critical section for 847 milliseconds ..
+Thread p3 trying to lock semaphore s4 : failure [waiting]
+Thread p2 trying to lock semaphore s1 : success
+Thread p5 trying to lock semaphore s5 : success
+Thread p2 trying to lock semaphore s0 : failure [waiting]
+Thread p7 releasing lock on semaphore s0
+Thread p7 releasing lock on semaphore s2
+Thread p7 releasing lock on semaphore s6 
+
+c) No Bugs

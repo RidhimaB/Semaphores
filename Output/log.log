@@ -1,0 +1,214 @@
+Process Starting ..1462593122053
+Starting thread id: p0
+Starting thread id: p1
+Starting thread id: p2
+Starting thread id: p3
+Starting thread id: p4
+Starting thread id: p5
+Starting thread id: p6
+Starting thread id: p7
+Thread p3 trying to lock semaphore s4 : success
+Thread p3 trying to lock semaphore s1 : success
+Thread p3 trying to lock semaphore s0 : success
+Thread p3 in critical section now. Will be in critical section for  845 milliseconds ..
+Thread p4 trying to lock semaphore s5 : success
+Thread p4 trying to lock semaphore s2 : success
+Thread p4 trying to lock semaphore s0 : failure [waiting]
+Thread p7 trying to lock semaphore s6 : success
+Thread p7 trying to lock semaphore s2 : failure [waiting]
+Thread p0 trying to lock semaphore s3 : success
+Thread p0 trying to lock semaphore s1 : failure [waiting]
+Thread p6 trying to lock semaphore s6 : failure [waiting]
+Thread p2 trying to lock semaphore s4 : failure [waiting]
+Thread p5 trying to lock semaphore s5 : failure [waiting]
+Thread p1 trying to lock semaphore s3 : failure [waiting]
+Thread p3 releasing lock on semaphore s0
+Thread p3 releasing lock on semaphore s1
+Thread p4 trying to lock semaphore s0 : success
+Thread p3 releasing lock on semaphore s4
+Thread p0 trying to lock semaphore s1 : success
+Thread p4 in critical section now. Will be in critical section for  961 milliseconds ..
+Thread p0 trying to lock semaphore s0 : failure [waiting]
+Thread p2 trying to lock semaphore s4 : success
+Thread p2 trying to lock semaphore s1 : failure [waiting]
+Thread p3 trying to lock semaphore s4 : failure [waiting]
+Thread p4 releasing lock on semaphore s0
+Thread p4 releasing lock on semaphore s2
+Thread p0 trying to lock semaphore s0 : success
+Thread p4 releasing lock on semaphore s5
+Thread p7 trying to lock semaphore s2 : success
+Thread p0 in critical section now. Will be in critical section for  858 milliseconds ..
+Thread p7 trying to lock semaphore s0 : failure [waiting]
+Thread p5 trying to lock semaphore s5 : success
+Thread p5 trying to lock semaphore s2 : failure [waiting]
+Thread p4 trying to lock semaphore s5 : failure [waiting]
+Thread p0 releasing lock on semaphore s0
+Thread p0 releasing lock on semaphore s1
+Thread p7 trying to lock semaphore s0 : success
+Thread p0 releasing lock on semaphore s3
+Thread p2 trying to lock semaphore s1 : success
+Thread p7 in critical section now. Will be in critical section for  702 milliseconds ..
+Thread p2 trying to lock semaphore s0 : failure [waiting]
+Thread p1 trying to lock semaphore s3 : success
+Thread p1 trying to lock semaphore s1 : failure [waiting]
+Thread p0 trying to lock semaphore s3 : failure [waiting]
+Thread p7 releasing lock on semaphore s0
+Thread p7 releasing lock on semaphore s2
+Thread p2 trying to lock semaphore s0 : success
+Thread p7 releasing lock on semaphore s6
+Thread p5 trying to lock semaphore s2 : success
+Thread p2 in critical section now. Will be in critical section for  792 milliseconds ..
+Thread p6 trying to lock semaphore s6 : success
+Thread p5 trying to lock semaphore s0 : failure [waiting]
+Thread p6 trying to lock semaphore s2 : failure [waiting]
+Thread p7 trying to lock semaphore s6 : failure [waiting]
+Thread p2 releasing lock on semaphore s0
+Thread p2 releasing lock on semaphore s1
+Thread p5 trying to lock semaphore s0 : success
+Thread p2 releasing lock on semaphore s4
+Thread p1 trying to lock semaphore s1 : success
+Thread p5 in critical section now. Will be in critical section for  921 milliseconds ..
+Thread p3 trying to lock semaphore s4 : success
+Thread p1 trying to lock semaphore s0 : failure [waiting]
+Thread p3 trying to lock semaphore s1 : failure [waiting]
+Thread p2 trying to lock semaphore s4 : failure [waiting]
+Thread p5 releasing lock on semaphore s0
+Thread p5 releasing lock on semaphore s2
+Thread p1 trying to lock semaphore s0 : success
+Thread p1 in critical section now. Will be in critical section for  912 milliseconds ..
+Thread p5 releasing lock on semaphore s5
+Thread p6 trying to lock semaphore s2 : success
+Thread p4 trying to lock semaphore s5 : success
+Thread p6 trying to lock semaphore s0 : failure [waiting]
+Thread p4 trying to lock semaphore s2 : failure [waiting]
+Thread p5 trying to lock semaphore s5 : failure [waiting]
+Thread p1 releasing lock on semaphore s0
+Thread p1 releasing lock on semaphore s1
+Thread p6 trying to lock semaphore s0 : success
+Thread p1 releasing lock on semaphore s3
+Thread p3 trying to lock semaphore s1 : success
+Thread p6 in critical section now. Will be in critical section for  790 milliseconds ..
+Thread p0 trying to lock semaphore s3 : success
+Thread p3 trying to lock semaphore s0 : failure [waiting]
+Thread p0 trying to lock semaphore s1 : failure [waiting]
+Thread p1 trying to lock semaphore s3 : failure [waiting]
+Thread p6 releasing lock on semaphore s0
+Thread p6 releasing lock on semaphore s2
+Thread p3 trying to lock semaphore s0 : success
+Thread p6 releasing lock on semaphore s6
+Thread p4 trying to lock semaphore s2 : success
+Thread p3 in critical section now. Will be in critical section for  988 milliseconds ..
+Thread p4 trying to lock semaphore s0 : failure [waiting]
+Thread p7 trying to lock semaphore s6 : success
+Thread p7 trying to lock semaphore s2 : failure [waiting]
+Thread p6 trying to lock semaphore s6 : failure [waiting]
+Thread p3 releasing lock on semaphore s0
+Thread p3 releasing lock on semaphore s1
+Thread p4 trying to lock semaphore s0 : success
+Thread p0 trying to lock semaphore s1 : success
+Thread p4 in critical section now. Will be in critical section for  771 milliseconds ..
+Thread p0 trying to lock semaphore s0 : failure [waiting]
+Thread p3 releasing lock on semaphore s4
+Thread p2 trying to lock semaphore s4 : success
+Thread p2 trying to lock semaphore s1 : failure [waiting]
+Thread p3 trying to lock semaphore s4 : failure [waiting]
+Thread p4 releasing lock on semaphore s0
+Thread p4 releasing lock on semaphore s2
+Thread p0 trying to lock semaphore s0 : success
+Thread p4 releasing lock on semaphore s5
+Thread p7 trying to lock semaphore s2 : success
+Thread p0 in critical section now. Will be in critical section for  550 milliseconds ..
+Thread p5 trying to lock semaphore s5 : success
+Thread p7 trying to lock semaphore s0 : failure [waiting]
+Thread p5 trying to lock semaphore s2 : failure [waiting]
+Thread p4 trying to lock semaphore s5 : failure [waiting]
+Thread p0 releasing lock on semaphore s0
+Thread p0 releasing lock on semaphore s1
+Thread p7 trying to lock semaphore s0 : success
+Thread p0 releasing lock on semaphore s3
+Thread p7 in critical section now. Will be in critical section for  871 milliseconds ..
+Thread p2 trying to lock semaphore s1 : success
+Thread p1 trying to lock semaphore s3 : success
+Thread p2 trying to lock semaphore s0 : failure [waiting]
+Thread p1 trying to lock semaphore s1 : failure [waiting]
+Thread p0 trying to lock semaphore s3 : failure [waiting]
+Thread p7 releasing lock on semaphore s0
+Thread p7 releasing lock on semaphore s2
+Thread p2 trying to lock semaphore s0 : success
+Thread p7 releasing lock on semaphore s6
+Thread p2 in critical section now. Will be in critical section for  878 milliseconds ..
+Thread p5 trying to lock semaphore s2 : success
+Thread p6 trying to lock semaphore s6 : success
+Thread p5 trying to lock semaphore s0 : failure [waiting]
+Thread p6 trying to lock semaphore s2 : failure [waiting]
+Thread p7 trying to lock semaphore s6 : failure [waiting]
+Thread p2 releasing lock on semaphore s0
+Thread p2 releasing lock on semaphore s1
+Thread p5 trying to lock semaphore s0 : success
+Thread p2 releasing lock on semaphore s4
+Thread p1 trying to lock semaphore s1 : success
+Thread p5 in critical section now. Will be in critical section for  957 milliseconds ..
+Thread p3 trying to lock semaphore s4 : success
+Thread p1 trying to lock semaphore s0 : failure [waiting]
+Thread p3 trying to lock semaphore s1 : failure [waiting]
+Thread p2 trying to lock semaphore s4 : failure [waiting]
+Thread p5 releasing lock on semaphore s0
+Thread p5 releasing lock on semaphore s2
+Thread p1 trying to lock semaphore s0 : success
+Thread p6 trying to lock semaphore s2 : success
+Thread p5 releasing lock on semaphore s5
+Thread p1 in critical section now. Will be in critical section for  793 milliseconds ..
+Thread p6 trying to lock semaphore s0 : failure [waiting]
+Thread p4 trying to lock semaphore s5 : success
+Thread p4 trying to lock semaphore s2 : failure [waiting]
+Thread p5 trying to lock semaphore s5 : failure [waiting]
+Thread p1 releasing lock on semaphore s0
+Thread p1 releasing lock on semaphore s1
+Thread p6 trying to lock semaphore s0 : success
+Thread p1 releasing lock on semaphore s3
+Thread p3 trying to lock semaphore s1 : success
+Thread p6 in critical section now. Will be in critical section for  536 milliseconds ..
+Thread p0 trying to lock semaphore s3 : success
+Thread p3 trying to lock semaphore s0 : failure [waiting]
+Thread p0 trying to lock semaphore s1 : failure [waiting]
+Thread p1 trying to lock semaphore s3 : failure [waiting]
+Thread p6 releasing lock on semaphore s0
+Thread p6 releasing lock on semaphore s2
+Thread p3 trying to lock semaphore s0 : success
+Thread p6 releasing lock on semaphore s6
+Thread p4 trying to lock semaphore s2 : success
+Thread p3 in critical section now. Will be in critical section for  515 milliseconds ..
+Thread p7 trying to lock semaphore s6 : success
+Thread p4 trying to lock semaphore s0 : failure [waiting]
+Thread p7 trying to lock semaphore s2 : failure [waiting]
+Thread p6 trying to lock semaphore s6 : failure [waiting]
+Thread p3 releasing lock on semaphore s0
+Thread p3 releasing lock on semaphore s1
+Thread p4 trying to lock semaphore s0 : success
+Thread p3 releasing lock on semaphore s4
+Thread p0 trying to lock semaphore s1 : success
+Thread p4 in critical section now. Will be in critical section for  561 milliseconds ..
+Thread p2 trying to lock semaphore s4 : success
+Thread p0 trying to lock semaphore s0 : failure [waiting]
+Thread p2 trying to lock semaphore s1 : failure [waiting]
+Thread p3 trying to lock semaphore s4 : failure [waiting]
+Thread p4 releasing lock on semaphore s0
+Thread p4 releasing lock on semaphore s2
+Thread p0 trying to lock semaphore s0 : success
+Thread p4 releasing lock on semaphore s5
+Thread p7 trying to lock semaphore s2 : success
+Thread p0 in critical section now. Will be in critical section for  673 milliseconds ..
+Thread p5 trying to lock semaphore s5 : success
+Thread p7 trying to lock semaphore s0 : failure [waiting]
+Thread p5 trying to lock semaphore s2 : failure [waiting]
+Thread p4 trying to lock semaphore s5 : failure [waiting]
+Thread p0 releasing lock on semaphore s0
+Thread p0 releasing lock on semaphore s1
+Thread p7 trying to lock semaphore s0 : success
+Thread p0 releasing lock on semaphore s3
+Thread p2 trying to lock semaphore s1 : success
+Thread p7 in critical section now. Will be in critical section for  989 milliseconds ..
+Thread p1 trying to lock semaphore s3 : success
+Thread p2 trying to lock semaphore s0 : failure [waiting]
+Thread p1 trying to lock semaphore s1 : failure [waiting]
+Total Processed Time :15 Sec
